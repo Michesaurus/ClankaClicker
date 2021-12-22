@@ -1,0 +1,50 @@
+body{
+    background-color: darkgray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+}
+
+#TypedClankas{
+    text-align: center;
+    font-weight: 1000;
+}
+
+#GameParent{
+    display: flex;
+}
+
+#LeftContainer{
+    width: 40%;
+    flex: 1;
+}
+
+#RightContainer{
+    width: 60%;
+}
+
+#TotalClankas{
+    text-align: center;
+    font-size: 60px;
+}
+
+.Upgrades{
+    padding: 5px 10%;
+    font-size: 24px;
+    display: flex;
+}
+
+.UpgradeButton{
+    display: flex;
+}
+
+.UpgradeCost{
+    margin-left: 25px;
+}
+
+#BankruptButton{
+    width: 100%;
+    text-align: center;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    font-weight: 800;
+}

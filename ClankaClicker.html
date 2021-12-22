@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clanka Clicker</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="GameParent">
+        <div id="LeftContainer">
+            <img id="Clanka" src="https://preview.redd.it/owyoxy0xzi241.png?auto=webp&s=ab1454bb5d158fba19fe79ca9ae3e268f05a90a8" />
+            <div id="BankruptButton">
+                <h3>
+                    Bankrupt
+                </h3>
+            </div>
+        </div>
+        <div id="RightContainer">
+            <h1 id="TotalClankas">0</h1>
+            <h1 id="TypedClankas">CLANKAS</h1>
+            <div class="Upgrades">
+                <div id="FirstUpgradeButton" class="UpgradeButton">
+                    <p>Usine urbaine</p>
+                    <p id="FirstUpgradeCost" class="UpgradeCost"></p>
+                </div>
+            </div>
+            <div class="Upgrades">  
+                <div id="SecondUpgradeButton" class="UpgradeButton">
+                    <p>Usine spatiale</p>
+                    <p id="SecondUpgradeCost" class="UpgradeCost"></p>
+                </div>
+            </div>
+            <div class="Upgrades">  
+                <div id="ThirdUpgradeButton" class="UpgradeButton">
+                    <p>Usine planétaire</p>
+                    <p id="ThirdUpgradeCost" class="UpgradeCost"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="store.js"></script>
+<script src="game.js"></script>
+<script src="display.js"></script>
+</html>
